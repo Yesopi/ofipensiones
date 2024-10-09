@@ -81,10 +81,10 @@ WSGI_APPLICATION = 'ofipensiones.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'name_db',
-        'USER': 'user_db',
-        'PASSWORD': 'user_password',
-        'HOST': 'localhost',
+        'NAME': 'ofipensiones_andes',
+        'USER': 'postgres',
+        'PASSWORD': 'arquisoft',
+        'HOST': '10.128.0.10',
         'PORT': '',
     }
 }
